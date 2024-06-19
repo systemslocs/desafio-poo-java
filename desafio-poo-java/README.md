@@ -1,3 +1,5 @@
+# Desafio de POO
+
 ## Diagrama UML do Desafio
 
 ```mermaid
@@ -21,12 +23,8 @@ classDiagram
     }
 
     class iPhone {
-        - ReprodutorMusical
-        - AparelhoTelefonico
-        - NavegadorInternet
     }
 
     iPhone --> ReprodutorMusical
     iPhone --> AparelhoTelefonico
     iPhone --> NavegadorInternet
-```
